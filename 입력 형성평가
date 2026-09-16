@@ -1,0 +1,60 @@
+형성평가1
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int c = 30;
+
+        System.out.println(a + " + " + b + " = " + c);
+    }
+}
+형성평가2
+public class Main {
+    public static void main(String[] args) {
+        double a = 80.5;
+        double b = 22.34;
+        double sum = a + b;
+
+        System.out.printf("%10.2f%10.2f%10.2f%n", a, b, sum);
+    }
+}
+형성평가3
+public class Main {
+    public static void main(String[] args) {
+        int a = 50;
+        double b = 100.12;
+
+        long result = Math.round(b * a);
+
+        System.out.println(b + " * " + a + " = " + result);
+    }
+}
+형성평가4
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int sum = a + b + c;
+
+        System.out.println("sum = " + sum);
+    }
+}
+형성평가5
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("yard? ");
+        double yard = sc.nextDouble();
+
+        double cm = yard * 91.44;
+
+        System.out.printf("%.1fyard = %.1fcm%n", yard, cm);
+    }
+}
